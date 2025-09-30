@@ -1,0 +1,77 @@
+.wrapper {
+    width: 1230px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    padding: 10px 10px;
+    background-color: white;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.content-left {
+    width: 25%;
+    border-right: 1px solid #ccc;
+}
+
+.f-logo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+
+    img {
+        width: 250px;
+        height: 50px;
+    }
+}
+
+.f-addressfooter {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.content-right {
+    width: 75%;
+    padding: 5px 20px;
+
+    .top-right {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+.top-right-item {
+    width: 33.33%;
+
+    li {
+        margin-left: 10px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}
+
+.bot-right > .list-contact {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    padding: 3px 3px;
+}
+
+.bot-right > .list-img-transfer{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-between;
+    padding: 3px 3px;
+
+    img{
+        width: 100px;
+        height: 50px;
+    }
+}

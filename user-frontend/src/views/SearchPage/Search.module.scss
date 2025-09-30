@@ -1,0 +1,43 @@
+.search-wrapper {
+    width: 80%;
+    max-width: 1230px;
+    min-height: 700px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+    .search-title{
+        text-align: center;
+    }
+}
+
+.not-found {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #999;
+  margin: 40px 0;
+  height: 500px;
+}
+
+.product-list {
+  
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+}

@@ -1,0 +1,130 @@
+.category-wrapper {
+    width: 80%;
+    max-width: 1230px;
+    min-height: 1000px;
+    margin: 20px auto;
+    display: flex;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.category-sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    a{
+        color: #666;
+    }
+}
+
+.category-list li {
+    margin-left: 10px;
+    color: #666;
+    line-height: 28px;
+    :hover{
+        color: #1a73e8;
+    }
+}
+
+.category-list li:first-child {
+    padding: 8px 0;
+    cursor: pointer;
+    color: #f7941e;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+// .category-list li:last-child {
+//     padding: 8px 0;
+//     cursor: pointer;
+//     color: #f7941e;
+//     font-weight: 500;
+//     margin: 0 auto;
+//     text-align: center;
+// }
+
+.price-filter label {
+    margin-left: 10px;
+    color: #666;
+}
+
+.view-more {
+    color: #f7941e;
+}
+
+.price-filter,
+.genre-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.product-list {
+    flex: 1;
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+
+    select {
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        outline: none;
+        color: #666;
+    }
+}
+
+.product-count {
+    margin-left: auto;
+    color: #666;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.status {
+    background-color: #f0f8ff;
+    color: #1a73e8;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+.current-price {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #666;
+    margin-left: 8px;
+    font-size: 0.9em;
+}
